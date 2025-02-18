@@ -21,7 +21,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://zstg.is-a.dev/",
+  site: "https://zstg.is-a.dev",
   // base: "/", DON'T SET THIS https://docs.astro.build/en/guides/deploy/github/#base
   trailingSlash: "always",
   integrations: [
